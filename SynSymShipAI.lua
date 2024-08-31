@@ -207,11 +207,11 @@ function P.astroMechComputer(ship)
 
 --Reactor
 	local reactorMax = 3
-	print(reactorMax)
+	--print(reactorMax)
 	local reactorMin = .3
-	print(reactorMin)
-	print(reactorHeat)
-	print(warpHeat)
+	--print(reactorMin)
+	--print(reactorHeat)
+	--print(warpHeat)
 	--breaks after reactor heats up, fixes once reactor cools down
 
 	if reactorHeat < .9 and warpHeat < .9 then
